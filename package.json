@@ -1,12 +1,12 @@
 {
   "name": "solidity-to-abi",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "Converts Solidity method interface string to a web3 ABI interface object.",
   "scripts": {
     "start": "npm test",
     "npmcheckversion": "node ./internals/scripts/npmcheckversion.js",
     "nodejscheckversion": "node ./internals/scripts/nodejscheckversion.js",
-    "preinstall": "npm run npmcheckversion && npm run nodejscheckversion",
+    "preinstall": "",
     "test": "mocha src/tests/**/*.js -R spec  --compilers js:babel-core/register",
     "prebuild": "npm run test && rimraf dist && mkdir dist",
     "build": "npm run build:browserify",
