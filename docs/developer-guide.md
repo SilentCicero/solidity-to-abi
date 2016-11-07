@@ -27,6 +27,14 @@ All module source code is found in the `src` directory. All module helper script
 
 All tests can be found in [`src/tests`](../../../blob/master/src/tests)
 
+## Gotchas
+
+1. Does not do any type checking
+
+## Future Plans
+
+1. Allow module to intake entire SOL contracts and output ABI
+
 ## Contributing
 
 Please help better the ecosystem by submitting issues and pull requests to default. We need all the help we can get to build the absolute best linting standards and utilities. We follow the AirBNB linting standard. Please read more about contributing to `solidity-to-abi` in the `CONTRIBUTING.md`.

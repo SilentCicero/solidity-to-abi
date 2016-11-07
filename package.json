@@ -10,7 +10,7 @@
     "test": "mocha src/tests/**/*.js -R spec  --compilers js:babel-core/register",
     "prebuild": "npm run test && rimraf dist && mkdir dist",
     "build": "npm run build:browserify",
-    "build:browserify": "node ./node_modules/browserify/bin/cmd.js src -o dist/solidity-to-abi.js -t [ babelify --presets [ es2015 ] ]",
+    "build:browserify": "node ./node_modules/browserify/bin/cmd.js src -o dist/solidity-to-abi.js -s solidityToABI -t [ babelify --presets [ es2015 ] ]",
     "prepublish": "npm run build",
     "release": "npmpub",
     "pretest": "npm run lint",
