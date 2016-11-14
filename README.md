@@ -16,10 +16,11 @@
     <img src="https://travis-ci.org/SilentCicero/solidity-to-abi.svg" alt="Build Status" />
   </a>
 
-  <!-- Test Coverage -->
+  <!-- Test Coverage
   <a href="https://coveralls.io/r/SilentCicero/solidity-to-abi">
     <img src="https://coveralls.io/repos/github/SilentCicero/solidity-to-abi/badge.svg" alt="Test Coverage" />
   </a>
+   -->
 
   <!-- NPM Version -->
   <a href="https://www.npmjs.org/package/solidity-to-abi">
@@ -82,7 +83,7 @@ Please help better the ecosystem by submitting issues and pull requests to defau
 You'll find more detailed information on using default and tailoring it to your needs in our guides:
 
 - [User guide](docs/user-guide.md) - Usage, configuration, FAQ and complementary tools.
-- [Developer guide](docs/developer-guide.md) - Contributing to default and writing your own plugins & formatters.
+- [Developer guide](docs/developer-guide.md) - Contributing to solidity-to-abi and writing your own plugins & formatters.
 
 ## Help out
 

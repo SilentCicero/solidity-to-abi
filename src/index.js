@@ -26,7 +26,7 @@ function buildInputsArray(rawInputsString) {
 }
 
 // parse a solidity method interface
-export default function solidityToABI(methodInterface) {
+function solidityToABI(methodInterface) {
   // count open and clsoed
   const methodABIObject = {};
 
@@ -89,3 +89,6 @@ export default function solidityToABI(methodInterface) {
   // return method abi object
   return methodABIObject;
 }
+
+// module export
+module.exports = solidityToABI;

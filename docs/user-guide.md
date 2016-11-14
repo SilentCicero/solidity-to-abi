@@ -73,3 +73,7 @@ Returns **Object**, example:
   ]
 }
 ```
+
+## Gotchas
+
+ - No type checking for solidity input and output types

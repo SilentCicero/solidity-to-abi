@@ -1,6 +1,6 @@
 {
   "name": "solidity-to-abi",
-  "version": "1.0.1",
+  "version": "1.0.3",
   "description": "Converts Solidity method interface string to a web3 ABI interface object.",
   "scripts": {
     "start": "npm test",
@@ -54,6 +54,7 @@
     "babelify": "^7.3.0",
     "browserify": "^13.1.1",
     "chai": "^3.5.0",
+    "child_process": "^1.0.2",
     "coveralls": "^2.11.9",
     "cross-env": "^1.0.7",
     "eslint": "^2.10.1",
